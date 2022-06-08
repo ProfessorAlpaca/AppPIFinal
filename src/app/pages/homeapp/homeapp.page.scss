@@ -1,0 +1,199 @@
+ion-content{
+    --background:#1e0c31a7 !important; 
+    
+ }
+
+ .header-ios .main-toolbar{
+     --background:transparent !important;
+     --border-width:0 !important;
+     height:80px !important;
+     --min-height:125px !important;
+     margin: 0;
+ 
+ 
+ }
+ 
+ .header-md .main-toolbar{
+     --background:transparent !important;
+     --border-width:0 !important;
+     height:80px !important;
+     --min-height:135px !important;
+     margin: 0;
+     font-size: 14px;
+ 
+ 
+ }
+ 
+ .header-md ion-title{
+     padding-inline-start: 0;
+     font-family: Montserrat_Regular;
+     font-weight: 200;
+     padding-left: 30px;
+     color:#000000;
+     font-size:20px;
+ }
+ 
+ ion-title{
+     padding-inline-start: 0;
+     font-family: Montserrat_Regular;
+     font-weight: 200;
+     padding-left: 30px;
+     color:#000000;
+     text-align:center;
+     font-size: 20px;
+ }
+ 
+ .small-toolbar{
+     --background-color: transparent;
+     text-align:right;
+     margin-right: 20px;
+ }
+ 
+ .small-toolbar .icon{
+     font-size: 26px;
+     color: rgb(109, 25, 139);
+ }
+ 
+ .header-md{
+     .title-toolbar{
+         text-align: left;
+         padding-left: 30px;
+         font-family: 'Montserrat';
+         font-weight: 200;
+         font-style: normal;
+     } 
+ 
+     .title-toolbar .title{
+         font-family: 'Libre Baskerville';
+         font-size: 18px;
+         font-weight: 700;
+         color: #0a0a0a;
+     
+     }
+ }
+ 
+ .title-toolbar{
+     text-align: left;
+     padding-left: 30px;
+     font-family: 'Montserrat';
+     font-weight: 200;
+     font-style: normal;
+      position: absolute;
+      top: 6px;
+      color:#000000
+ }
+ 
+ .title-toolbar .title{
+     font-family: LibreBaskerville;
+     font-size: 18px;
+     font-weight: 700;
+     color: #000000 !important;
+ 
+ }
+ 
+ 
+ #container{
+  
+     display:absolute;
+     left:0;
+     right: 0;
+     text-align:center;
+     transform: translateY(-50%);
+ }
+ 
+ .searchbar{
+     padding:0px;
+     position:absolute;
+     left:0;
+     right: 0;
+     top:20%;
+     margin-top: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
+ }
+ 
+ 
+ ion-searchbar{
+     --box-shadow:none;
+     --border-radius:15px;
+    color:#000000;
+     --background:#cacaca;
+ }
+ .searchbar-input.sc-ion-searchbar-ios
+ {
+     --background: rgb(113, 32, 146) !important;
+ }
+ 
+ 
+ main-featured-products{
+     color:#000 !important;
+      height: 100px;
+ 
+      
+ }
+ ion-slides{
+     --bullet-background: rgb(77, 22, 109);
+     --bullet-background-active: rgb(163, 163, 163);
+ }
+ 
+ .card-wrapper{
+     background: #96969349 !important;   
+ }
+ 
+ .swiper-slide {
+     color:rgb(247, 0, 255);
+ }
+ 
+ .main-product-card{
+     background: #96969349;
+     border-radius: 20px;
+ }
+ 
+ .main-product-card img{
+     padding: 80px 0px 20px 0px;
+ 
+ }
+ 
+ ion-card-content {
+     text-align: left;
+ }
+ 
+ ion-card-title {
+     font-size: 28px;
+     font-family: Montserrat_Regular;
+     color: #fff;
+     font-weight: 200;
+ }
+ 
+ ion-card-subtitle {
+     font-size: 12px;
+     font-family: Montserrat_Regular;
+     font-weight: 200;
+     color: #cfcfcf;
+     padding-top: 10px;
+     // padding-bottom: 20px;
+ }
+ 
+ ion-item{
+     --background: transparent;
+     text-align: left;
+     margin-left: 0;
+     --padding-start:0px;
+     -webkit-padding-start: 0;
+     --min-height:0;
+     width: 90px !important;
+ 
+     ion-icon{
+         margin-top: 0;
+         margin-bottom: 0;
+         padding:0px;
+         font-size: 13px;
+         margin-inline: 0 2px;
+     }
+ }
+ 
+ .time-icon{
+     padding-top: 6px;
+ }
+ 
+ 

@@ -1,0 +1,100 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar style="background:#f4faf66c" class="main-toolbar">
+   <ion-title>
+     Quer comer? Bem vindo!
+     </ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-header class="ion-no-border" style="background:#cacaca;">
+
+   <div class="small-toolbar">
+     <ion-icon ios="menu-outline" md="menu-sharp" name="menu" class="icon"></ion-icon>
+     </div>
+     <div class="title-toolbar">
+
+       <Strong class="title">Mate</Strong> sua fome!    
+   
+   </div>
+  
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div class="background-pic">
+    <div class="background-filter">
+      </div>
+      </div>
+
+ <div id="container"> 
+  
+   <div class="searchbar">
+     <ion-searchbar placeholder="Pesquise um produto..." no-shadow>  
+     </ion-searchbar>
+
+   
+     <div class="main-featured-products">
+        
+
+      <ion-slides pager="true" [options]="options" (click)="appRating()">
+        
+       <ion-slide>
+         <ion-card class="main-product-card">
+           <ion-card-content>
+           <img src="../../assets/artes/2.png" />
+
+           <ion-card-title>
+            Big Smack - Grande
+         </ion-card-title> 
+         
+           <ion-card-subtitle>
+               <ion-item lines="none" full="true" (click)="appRating()">
+                <ion-icon name="star"  color="warning"></ion-icon>
+                <ion-icon name="star"  color="warning"></ion-icon>
+                <ion-icon name="star"  color="warning"></ion-icon>
+                <ion-icon name="star"  color="warning"></ion-icon>
+                <ion-icon name="star"  color="warning"></ion-icon>
+               </ion-item>
+
+           <div class="time-icon">
+            <ion-icon ios="cash-outline" md="cash"  color="warning"></ion-icon>
+            R$ 11,00
+             </div>                 
+          </ion-card-subtitle>
+         
+        </ion-card-content>
+        </ion-card>
+       </ion-slide>
+
+       <ion-slide>
+         <ion-card class="card-wrapper main-product-card">
+           <ion-card-content>
+           <img src="../../assets/artes/Refri1.png" />
+
+           <ion-card-title>
+             Franta Uva
+         </ion-card-title> 
+         
+           <ion-card-subtitle>
+               <ion-item lines="none" full="true" (click)="appRating()">
+                <ion-icon name="star"  color="warning"></ion-icon>
+                <ion-icon name="star"  color="warning"></ion-icon>
+                <ion-icon name="star"  color="warning"></ion-icon>
+                <ion-icon name="star"  color="warning"></ion-icon>
+               </ion-item>
+
+           <div class="time-icon">
+            <ion-icon ios="cash-outline" md="cash"  color="warning"></ion-icon>
+            R$ 5,00
+             </div>                 
+          </ion-card-subtitle>
+         
+        </ion-card-content>
+        </ion-card>
+       </ion-slide>
+
+      </ion-slides>
+     </div>
+
+ </div>
+ </div>
+

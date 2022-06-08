@@ -1,0 +1,53 @@
+ion-content{
+    --ion-background-color: #fff;
+}
+
+.background-container{
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   background: url(../../assets/artes/LoginADM.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50%;
+   flex-direction: column;
+   justify-content: center;
+}
+
+ion-card{
+   text-align: center;
+   background: transparent;
+   box-shadow: none;
+
+
+}
+
+ion-card-title{
+   font-size: 20px;
+   color: #e2d2ed;
+   font-weight: 400px;
+}
+
+ion-card-content{
+   margin-top: 20px;
+}
+
+ion-button{
+   width: 180px;
+   height: 60px;
+   --border-radius: 40px;
+   --background: #d796ff24;
+   color: #fff;
+   font-weight: 400;
+   text-transform: none;
+}
+
+@media screen and (min-width:500px){
+   .background-filter{
+       height: 100%;
+       weight: 100%
+       --background rgba(71, 39, 92, 0.9);
+       display: flex;
+       justify-content: center;
+   }
+}
